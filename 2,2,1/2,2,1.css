@@ -44,10 +44,10 @@ main {
 
 .block.second {
     background-color: rgb(34, 34, 236);
-    width: 90px; /* Збільшуємо ширину блоку 2 */
+    width: 90px; 
     height: 300px;
-    margin-top: -2px; /* Забираємо відступ, щоб блоки доторкалися */
-    margin-left: 3px; /* Відсуваємо блок 2 трохи лівіше */
+    margin-top: -2px; 
+    margin-left: 3px; 
 }
 
 .block-container {

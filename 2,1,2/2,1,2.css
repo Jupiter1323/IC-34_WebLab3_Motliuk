@@ -9,10 +9,10 @@ main {
 }
 
 table {
-    width: 33%; /* Гумова ширина таблиці */
+    width: 33%; 
     min-width: 250px;
     border-collapse: collapse;
-    height: 600px; /* Фіксована висота таблиці */
+    height: 600px; 
 }
 
 td {
@@ -30,7 +30,7 @@ td {
     position: absolute;
     top: 15px;
     left: 10px;
-    width: 35%; /* Пропорційна ширина */
+    width: 35%; 
     height: 30px;
     background-color: white;
     border: 2px solid black;
@@ -38,13 +38,13 @@ td {
 
 .second {
     background-color: rgb(34, 34, 236);
-    width: 6%; /* Пропорційна ширина */
+    width: 6%; 
     height: 100px;
 }
 
 .white-space {
     height: 100%;
-    width: 20%; /* Пропорційна ширина */
+    width: 20%; 
     position: relative;
 }
 
