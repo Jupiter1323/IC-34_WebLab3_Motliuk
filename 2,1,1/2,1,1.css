@@ -1,0 +1,98 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px; 
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0; 
+}
+
+table {
+    width: 350px; 
+    border-collapse: collapse;
+    margin: auto; 
+}
+
+td {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+.blue {
+    background-color: rgb(249, 208, 6);
+    position: relative;
+}
+
+.white-rectangle {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 130px;
+    height: 24px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.second {
+    background-color: rgb(34, 34, 236);
+    width: 30px;
+    height: 100px;
+}
+
+.white-space {
+    height: 300px;
+    width: 100px;
+    position: relative;
+}
+
+.third {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 120px;
+    height: 265px;
+    background-color: white;
+    border: 2px solid rgb(121, 120, 120);
+    position: relative;
+    bottom: 10px;
+}
+
+.red-rectangle {
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    width: 118px;
+    height: 30px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.fourth {
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    width: 100px;
+    height: 265px;
+    background-color: rgb(34, 34, 236);
+    border: 2px solid black;
+}
+
+.text-4,
+.text-3 {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+}
+
+.text-3 {
+    top: 135px;
+    left: 70px;
+}
+
+.text-4 {
+    top: 135px;
+    left: 195px;
+}

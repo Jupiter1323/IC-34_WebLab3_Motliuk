@@ -1,0 +1,112 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 700px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.block {
+  width: 27.1%; /* Фіксована ширина */
+  height: 50px; /* Фіксована висота */
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 0.1%;
+}
+
+.block.blue {
+  background-color: rgb(249, 208, 6);
+}
+
+.white-rectangle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40%;
+  height: 28px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.block-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 350px;
+  height: 300px;
+  position: relative;
+}
+
+.block.second {
+  background-color: rgb(34, 34, 236);
+  width: 28%; /* Збільшуємо ширину блоку 2 */
+  height: 100%;
+  margin-top: -0.5%; /* Забираємо відступ, щоб блоки доторкалися */
+  margin-left: 0.7%; /* Відсуваємо блок 2 трохи лівіше */
+}
+
+.block-container {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  bottom: 0.5%;
+  left: -0.7%;
+
+}
+
+.third {
+  position: absolute;
+  top: 4.5%;
+  left: 4.5%;
+  width: 44.8%;
+  height: 88%;
+  background-color: white;
+  border: 2px solid rgb(121, 120, 120);
+}
+
+.red-rectangle {
+  position: absolute;
+  bottom: -0.9%;
+  left: -0.9%;
+  width: 98%;
+  height: 11%;
+  background-color: red;
+  border: 3px solid black;
+}
+
+.fourth {
+  position: absolute;
+  top: 4.5%;
+  left: 56%;
+  width: 38%;
+  height: 88%;
+  background-color: rgb(34, 34, 236);
+  border: 2px solid black;
+}
+
+.text-3,
+.text-4 {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+}
+
+.text-3 {
+  top: 135px;
+  left: 50px;
+}
+
+.text-4 {
+  top: 135px;
+  left: 200px;
+}
+
+
+

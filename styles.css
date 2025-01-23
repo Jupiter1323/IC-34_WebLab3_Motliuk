@@ -1,0 +1,397 @@
+/* Загальні стилі */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.indented-text {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/* Частина 1: Кнопки */
+.header {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  white-space: nowrap; 
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: gray;
+}
+
+.city-button {
+  background-color: #2b2b2b;
+  color: white;
+  font-size: 40px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  height: 68px;
+  width: 200px;
+  min-width: 325px;
+  font-weight: bold;
+}
+
+.city-button .triangle {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%) rotate(90deg);
+  width: 0;
+  height: 0;
+  border-left: 8px solid #00bfff;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: none;
+}
+/* Частина 2: КУРС ПРОГРАМУВАННЯ */
+.course-info {
+  background-color: #ffffff;
+}
+
+.course-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 1800px;
+  margin: 30px;
+}
+
+.course-image-container {
+  width: 45%;
+}
+
+.course-details {
+  width: 50%;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.course-text {
+  width: 100%;
+  text-align: center;
+}
+
+.course-text h1 {
+  color: #fd9e0f;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.course-text h2 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.course-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-text li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.course-text li strong {
+  color: #333333;
+}
+
+.orange-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fd9e0f;
+  border: 2px solid black;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+/* Частина 3: Більше 800 випускників */
+.graduates {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.graduates h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.graduates h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(80, 157, 219);
+  font-weight: bold;
+}
+
+/* Частина 3: Більше 800 випускників */
+.graduates-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.graduate-card img {
+  width: 100%;
+  max-width: 425px; 
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* Частина 4: Чому варто нам довіряти? */
+.faq {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.faq h2 {
+  text-align: center;
+  color: rgb(80, 157, 219);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.faq h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.faq-left, .faq-right {
+  flex: 1;
+  padding: 10px;
+}
+
+.faq-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-center img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.faq-number {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 4em;
+  display: inline;
+  margin: 0;
+}
+
+.faq-title {
+  color: #fd9e0f;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: inline;
+  margin-left: 0px;
+}
+
+.faq-left p, .faq-right p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  color: #555;
+}
+/* Частина 5: НАВЧАЙСЯ ЗАРАЗ, СПЛАЧУЙ ПОТІМ */
+.study-now {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  background-color: #fd9e0f;
+  padding: 20px;
+  text-align: center;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+.study-now h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  
+}
+
+.study-now p {
+  color: #555;
+  font-size: 16px;
+}
+
+.camera-frame {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 36px;
+  text-align: center;
+  color: #395bb8;
+  font-weight: bold;
+}
+
+.camera-text {
+  color: #ffffff; 
+}
+
+.camera-frame::before,
+.camera-frame::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid;
+  border-radius: 3px;
+}
+
+.camera-frame::before {
+  top: -5px;
+  right: -5px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.camera-frame::after {
+  bottom: -5px;
+  left: -5px;
+  border-right: none;
+  border-top: none;
+}
+
+.frame-blue::before,
+.frame-blue::after {
+  border-color: rgb(36, 76, 121);
+}
+
+.check-circle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkmark {
+  width: 20px; 
+  height: 40px; 
+  border: 3px solid #23d349; 
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+  display: inline-block;
+  position: relative;
+  top: -12px; 
+  left: 6px; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.check-circle:hover .checkmark {
+  transform: rotate(45deg) scale(1.2); 
+}
+
+.increase-text {
+  font-size: 25px;
+  font-weight: bold; /
+}
+/* Частина 6: Повернутися на головну */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+.footer .back-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+}
+.footer .back-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
